@@ -1,9 +1,10 @@
 import './App.css';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
-      Hi, my name is Matti Simpson and this is my site.
+      <Hero />
     </div>
   );
 }

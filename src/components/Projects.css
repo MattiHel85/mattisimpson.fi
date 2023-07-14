@@ -1,0 +1,12 @@
+.projectCard {
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 25%;
+    padding: 30px;
+    margin: 20px 0px 20px;
+}
+
+.projectCard a {
+    text-decoration: none;
+    color: inherit;
+}

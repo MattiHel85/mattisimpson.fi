@@ -1,0 +1,9 @@
+.hero {
+    /* height: 100%; */
+    color: rgb(232, 232, 232);
+    padding: 250px;
+}
+
+.hero p {
+    margin: 50px 0px 30px;
+}
