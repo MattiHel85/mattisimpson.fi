@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className='projectCard'>
                     <h3>{project.name}</h3>
                     <h5>{project.comment}</h5>
-                    <a href={project.url} target='_blank'>Visit project</a>
+                    <a href={project.url} target='_blank' rel='noreferrer' >Visit project</a>
                 </div>
             )}
         </div>
