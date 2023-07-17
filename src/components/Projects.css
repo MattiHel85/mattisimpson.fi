@@ -1,12 +1,16 @@
 .projectCard {
     border: white 2px solid;
     border-radius: 5px;
-    width: 25%;
-    padding: 30px;
+    width: 250px;
+    padding: 50px;
     margin: 20px 0px 20px;
 }
 
+.projectCard h3, h5 {
+    margin-bottom: 5px;
+}
+
 .projectCard a {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
