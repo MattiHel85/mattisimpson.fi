@@ -5,7 +5,7 @@ const Projects = () => {
     const projects = [
         {
             name: "Teamfinder",
-            url: "https://teamfinder.netlify.app",
+            url: "https://teamfinder1-0.netlify.app",
             comment: "React front end for football teams REST API"
         },
         {
@@ -17,7 +17,17 @@ const Projects = () => {
             name: "Say Hello",
             url: "https://say-hello-laurea-to00bs65-3003-guestbook.onrender.com/",
             comment: "Guestbook app built as part of my Full Stack course at Laurea - the guestbook resets everyday because the messages are saved to a json file and not to a database"
-        }
+        },
+        {
+            name: "FakeShop Inc",
+            url: "https://fakeshop-inc.netlify.app/",
+            comment: "Front end project built as part of my studies at Integrify"
+        },
+        {
+            name: "Futistr",
+            url: "https://futistr.netlify.app/",
+            comment: "Full stack project inspired by the Teamfinder projects I built earlier"
+        },
     ]
     return (
         <div> 
