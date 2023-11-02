@@ -34,13 +34,17 @@ const Projects = () => {
             <h2>
                 Projects
             </h2>
-            {projects.map(project => 
-                <div className='projectCard'>
-                    <h3>{project.name}</h3>
-                    <h5>{project.comment}</h5>
-                    <a href={project.url} target='_blank' rel='noreferrer' >Visit project</a>
-                </div>
-            )}
+            <div className='projectCardHolder'>
+                {
+                    projects.map(project => 
+                        <div className='projectCard'>
+                            <h3>{project.name}</h3>
+                            <h5>{project.comment}</h5>
+                            <a href={project.url} target='_blank' rel='noreferrer' >Visit project</a>
+                        </div>
+                    )
+                }
+            </div>
         </div>
     );
 }
