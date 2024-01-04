@@ -21,7 +21,12 @@ const Projects = () => {
         {
             name: "FakeShop Inc",
             url: "https://fakeshop-inc.netlify.app/",
-            comment: "Front end project built as part of my studies at Integrify"
+            comment: "Front end project built as part of my studies at Integrify using the Platzi Fake Store API"
+        },
+        {
+            name: "FakeStore Inc",
+            url: "https://fakestoreinc.netlify.app/",
+            comment: "Front end for my full stack project built as part of my studies at Integrify using the backend I built using ASP.NET Core, Entity Framework Core, and PostgreSQL"
         },
         {
             name: "Futistr",
